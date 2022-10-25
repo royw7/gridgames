@@ -1,19 +1,24 @@
 .container {
-  
+    display: grid;
+    height:200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-start:auto;
+
 }
 
 #grid-item-1 {
-
+    grid-column-start: span 2;
 }
 
 #grid-item-2 {
-
+    grid-column-start: span 1;
 }
 
 #grid-item-3 {
-
+    grid-column-start: span 1;
 }
 
 #grid-item-4 {
-
+    grid-column-start: span 2;
 }

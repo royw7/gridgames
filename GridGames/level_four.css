@@ -1,26 +1,32 @@
 .container {
   display: grid;
-
+  grid-column: 1fr 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr 1fr;
+  grid-column-start: auto;
 }
 
 #navbar {
-
+  grid-column-start: span 5;
 }
 
 #sidebar {
   writing-mode: vertical-rl;
-
+  grid-column-start: span 1;
+  grid-row-start: span 2;
+  height:500 px;
 }
 
 #title {
-
+ grid-column-start: span 4;
 }
 
 
 #content {
-
+grid-column-start: span 4;
+grid-row-start: span 1;
+height:500px;
 }
 
 #footer {
-
+  grid-column-start: span 5;
 }
